@@ -1,0 +1,503 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Incognito'24</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="./img/urlpng2.png"" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Varela+Round"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+      rel="stylesheet"
+    />
+    <link href="./vendors/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link href="./css/skin.css" rel="stylesheet" />
+    <link href="./css/notPC.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+  </head>
+
+  <body id="bdy">
+    <video autoplay muted loop id="myVideo" style="opacity: 0.3">
+      <source src="./img/background.mp4" type="video/mp4"/>
+    </video>
+
+    <!-- Hero div -->
+    <div id="herodiv" class="vhcontainer myFlex centerFlex">
+      <div id="herotext">
+        <img src="./img/logo.png" id="herologo" />
+        <h1 class="logo">
+          <b><span class="z">I</span>NCOGN<span>IT</span>O'24</b>
+        </h1>
+        <h3 class="revo">A National Level Technical Symposium - 2024</h3>
+        <a href="#events"
+          ><button class="btn-large myGradientRotationAnimation">
+            Explore Events
+          </button></a
+        >
+        <div class="myFlex navigate" id="socialMediaSection">
+          <div>
+            <a href="https://www.instagram.com/incognito_2k24_/"><i 
+              class="socialMediaIcons bi bi-instagram gradient1"
+            ></i></a>
+          </div>
+          <div>
+            <a href="https://maps.app.goo.gl/sxriymuPS9EkKLVv7">  <i
+              class="socialMediaIcons bi bi-geo-alt-fill gradient1"
+            ></i></a>
+          </div>
+          <div>
+         <a href="./img/transport.pdf"> <i class="socialMediaIcons bus bx bx-bus gradient1"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+     <div class="sympContainer"><h2 class="sympTitle myHeader">The  Symposium</h2><div class="textalign"><p class="sympcontent columnText">Incognito 2024 is a part of Conoscenza'24 that is conducted every year, in order to bring together students from colleges across the nation in healthy competition. The sole purpose of the event is to provide a platform for students to showcase their knowledge and compete against other students. We have a range of activities and challenges that are both fun and educational for all geeks out there. It is a culmination of both, fun and technology.</p></div></div>
+     <div class="underLineContainer"><hr class="underLine"></div>
+    <div
+      id="aboutdiv"
+      class="vhcontainer myFlex centerFlex abtDep"
+      style="height: 70vh"
+    >
+ 
+      <div class="column2flex dptContainer">
+        <img
+          src="./img/poster.png"
+          class="columnImage"
+          onclick="window.open('./img/poster.png', '_blank').focus();"
+        />
+        <div class="myFlex centerFlex columnText">
+         <div class="textalign"> <h2 class="sympTitle dptHead myHeader">The Department of IT</h2>
+          <p class="contentdep">The Department of <span class="gradient0 it extraBold1">Information Technology</span>  offers education in undergraduate. It has a very able and skilled bunch of professors and researchers.The paramount aim is to offer the highest degree of theoretical and practical knowledge, encoded with a disciplined strength of mind to fully understand the vital sophistication of all technical and software technologies. </p></div>
+        
+        </div>
+      </div>
+    </div>
+
+    <div class="timerContainer"><h2 class="myHeader extraBold gradient0">Ready your minds : <span id="daystogo""></span> days to go!</h2>
+      <div class="time-container">
+        <div class="time">
+          <p class="timer_title">Days</p>
+          <span id="days" class="gradient0 extraBold">00</span>
+        </div>
+        <div class="time">
+          <p class="timer_title">Hours</p>
+          <span id="hours" class="gradient0 extraBold">00</span>
+        </div>
+        <div class="time">
+          <p class="timer_title">Minutes</p>
+          <span id="minutes" class="gradient0 extraBold">00</span>
+        </div>
+        <div class="time">
+          <p class="timer_title">Seconds</p>
+          <span id="seconds" class="gradient0 extraBold">00</span>
+        </div>
+      </div></div>
+
+    <!-- Event List -->
+   <div class="eventContainer"> <h1 class="card-head myHeader" id="events">EVENTS</h1>
+    <div class="cardContainer-wrapper">
+      <div class="scroll-btn left-btn">
+        <img src="img/arrowLeft.png" alt="arrow" />
+      </div>
+      <div class="cardContainer">
+        <div class="flip-card">
+          <div class="flip-card-inner card-one">
+            <div class="flip-card-front">
+           
+               
+                <div>
+                  <p class="card-title"> EYE FREE SCRIPT</p>
+                  <img src="img/blind.webp" alt="Avatar" class="card_img" />
+                </div>
+                <div class="hover">
+                  <div class="hover_container">
+                    <img
+                      src="img/icons8-hand-cursor-16.png"
+                      alt="hover"
+                      class="hover-img"
+                    />
+                  </div>
+                  <p class="hover_text">Know More</p>
+                </div>
+            
+              <!-- <div id="chevron-arrow-right"></div> -->
+            </div>
+            <div class="flip-card-back">
+              <p class="card-title"> EYE FREE SCRIPT</p>
+              <p>
+                Embrace the challenge of crafting correct algorithms and
+                syntactically sound code without the aid of a compiler.Dive deep
+                into the essence of problem-solving, where your ability to
+                reason and analyze is your only tool.
+              </p>
+              <h3 class="card-title">RULES</h3>
+            <ul class="rulesContainer">
+              <li class="rules">1.Individual Participant only.</li>
+              <li class="rules">2.Code in notepad only.</li>
+              <li class="rules">
+                3.Syntax and typo will not be considered. The logic you have
+                developed must pass all the testcase.
+              </li>
+            </ul>
+              <a
+                href="https://conoscenza2024.stjosephstechnology.ac.in/registration/"
+                ><button class="btn-reg btn--green">REGISTER</button></a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <div>
+                <p class="card-title">UXNEXT</p>
+                <img src="img/ux.gif" alt="Avatar" class="card_img" />
+              </div>
+              <!-- <div id="chevron-arrow-right"></div> -->
+              <div class="hover">
+                <div class="hover_container">
+                  <img
+                    src="img/icons8-hand-cursor-16.png"
+                    alt="hover"
+                    class="hover-img"
+                  />
+                </div>
+                <p class="hover_text">Know More</p>
+              </div>
+            </div>
+            <div class="flip-card-back">
+              <p class="card-title">UXNEXT</p>
+              <p>
+                Welcome to a realm where pixels come to life and user
+                experiences soar! Here, artistry intertwines with functionality,
+                and innovation knows no limits. Buckle up and get ready for a
+                design adventure like never before!
+              </p>
+              <h3 class="card-title">RULES</h3>
+              <ul class="rulesContainer">
+                <li class="rules">1.Team size 1 to 2.</li>
+                <li class="rules">2.There will be two rounds.</li>
+                <li class="rules">3.Participants should work on FIGMA.</li>
+                <li class="rules">4.Topics will be given on the spot.</li>
+                <li class="rules">5.Systems will be provided for the Event.</li>
+                <li class="rules">
+                  6.Strict note: Participations who back trace the same exact
+                  model from the internet will be disqualified.
+                </li>
+              </ul>
+              <a
+                href="https://conoscenza2024.stjosephstechnology.ac.in/registration/"
+                ><button class="btn-reg btn--green">REGISTER</button></a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <div>
+                <p class="card-title">KODO JAEGER</p>
+                <img src="img/treasure.gif" alt="Avatar" class="card_img" />
+              </div>
+              <!-- <div id="chevron-arrow-right"></div> -->
+              <div class="hover">
+                <div class="hover_container">
+                  <img
+                    src="img/icons8-hand-cursor-16.png"
+                    alt="hover"
+                    class="hover-img"
+                  />
+                </div>
+                <p class="hover_text">Know More</p>
+              </div>
+            </div>
+            <div class="flip-card-back">
+              <p class="card-title">KODO JAEGER</p>
+              <p>
+                Aye Aye Captain! Looking for treasures around here? You are at
+                the right place. Here we crack puzzles related to programming to
+                find the final treasure and open it.
+              </p>
+              <h3 class="card-title">RULES</h3>
+              <ul class="rulesContainer">
+                <li class="rules">
+                  1.A team should consist of 2 to 4 members.
+                </li>
+                <li class="rules">
+                  2.This game has only one round with a time limit of 1 hour.
+                </li>
+                <li class="rules">
+                  3.The team that cracks all the technical puzzels and opens the treasure first will be crowned as the Pirate King (WINNER).
+                </li>
+                <li class="rules">4.The organizers decision will be final</li>
+              </ul>
+              <a
+                href="https://conoscenza2024.stjosephstechnology.ac.in/registration/"
+                ><button class="btn-reg btn--green">REGISTER</button></a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <div>
+                <p class="card-title">PIXEL MAZE</p>
+                <img src="img/maze.gif" alt="Avatar" class="card_img" />
+              </div>
+              <div class="hover">
+                <div class="hover_container">
+                  <img
+                    src="img/icons8-hand-cursor-16.png"
+                    alt="hover"
+                    class="hover-img"
+                  />
+                </div>
+                <p class="hover_text">Know More</p>
+              </div>
+            </div>
+            <div class="flip-card-back">
+              <p class="card-title">PIXEL MAZE</p>
+              <p>
+                Dive into the intricate world of PIXEL MAZE, where connections based on technical terms are key. This event
+                challenges participants to find and link related technical terms, much like traditional connections puzzles.Join in to navigate through the maze of pixels and emerge as a champion of connections!
+              </p>
+              <h3 class="card-title">RULES</h3>
+              <ul class="rulesContainer">
+                <li class="rules">
+                  1.The team should consist of minimum of 2 members and maximum
+                  of 3 members.
+                </li>
+                <li class="rules">2.There will be 3 Rounds for this Event.</li>
+                <li class="rules">
+                  3.The hint for the First round will be Current Affairs.
+                </li>
+                <li class="rules">
+                  4.Other Rounds will be Revealed on the Spot.
+                </li>
+                <li class="rules">5.The Quiz Master decision will be Final.</li>
+              </ul>
+              <a
+                href="https://conoscenza2024.stjosephstechnology.ac.in/registration/"
+                ><button class="btn-reg btn--green">REGISTER</button></a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <div>
+                <p class="card-title">WAR OF GRAFFITI</p>
+                <img src="img/doodle.gif" alt="Avatar" class="card_img" />
+              </div>
+              <div class="hover">
+                <div class="hover_container">
+                  <img
+                    src="img/icons8-hand-cursor-16.png"
+                    alt="hover"
+                    class="hover-img"
+                  />
+                </div>
+                <p class="hover_text">Know More</p>
+              </div>
+            </div>
+            <div class="flip-card-back">
+              <p class="card-title">WAR OF GRAFFITI</p>
+              <p>
+                Ready to unwind and unleash your creativity? Dive into the
+                ultimate doodle showdown! Test your skills by guessing the
+                graffiti art in record time. Join us for a laid-back yet
+                thrilling challenge where every second counts!
+              </p>
+              <h3 class="card-title">RULES</h3>
+              <ul class="rulesContainer">
+                <li class="rules">1.Team size - minimum 2 and maximum 3</li>
+                <li class="rules">2.There will be two rounds.</li>
+                <li class="rules">
+                  3.All the teams are given 20 doodles in 1st round.
+                </li>
+                <li class="rules">
+                  4.In 2nd round, you are asked to design a doodle for the given
+                  topic on spot
+                </li>
+                <li class="rules">5.The best doodle will be awarded.</li>
+              </ul>
+              <a
+                href="https://conoscenza2024.stjosephstechnology.ac.in/registration/"
+                ><button class="btn-reg btn--green">REGISTER</button></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="scroll-btn right-btn">
+        <img src="img/arrowRight.png" alt="arrow" />
+      </div>
+    </div></div>
+    <br /><br />
+
+    <h2 class="myHeader extraBold gradient0">General Guidelines</h2>
+    <div
+      class="generalDiv"
+      style="
+        width: max-content;
+        max-width: 90%;
+        margin: auto;
+        position: relative;
+        z-index: 10001;
+      "
+    >
+      1.All participants should bring their registration slip along with college
+      id-card.<br /><br />
+      2.Participants will be permitted to enter the campus only in formal dress
+      code.<br /><br />
+      3.The offline registration process will end by 9.30.am on the day of
+      event.<br /><br />
+      4.College buses will be available from all parts of the city.<br /><br />
+      5.All the events will commence at the scheduled time. Participants are
+      requested to be punctual.<br /><br />
+      6.Breakfast and lunch will be provided by our college.<br /><br />
+      7.Proper decorum must be maintained in accordance with the college rules
+      while inside the college campus.<br /><br />
+    </div>
+    <br /><br />
+
+    <!-- Co ordinator List -->
+    <h2 class="myHeader extraBold gradient0">Contact Us</h2>
+    <div class="overallStaf">
+      <div class="hod">
+        <h5 class="myHeader contactTitle extraBold1 gradient0">Convenor</h5>
+          <div class="triangle">
+            <div>
+              <h5 class="extrabold1 name">Dr.K.VIJAYAKUMAR</h5>
+              <h6>HOD-PROFESSOR</h6>
+            </div>
+          </div>
+      </div>
+      <div class="studentStaff">
+        <div class="stafs">  
+          <h5 class="myHeader contactTitle extraBold1 gradient0">Staff Co-ordinators</h5>
+          <div class="triangle staf">
+            <div>
+              <h5 class="extrabold1 name">Dr.R.Deepa</h5>
+              <h6>+91 9884703877</h6>
+            </div>
+            <div>
+              <h5 class="extrabold1 name">Ms.J.Vinisha</h5>
+              <h6>+91 9443687290</h6>
+            </div>
+          </div></div>
+        <div class="stafs"> 
+          <h5 class="myHeader contactTitle extrabold1 gradient0">Student Co-ordinators</h5>
+          <div class="triangle staf">
+            <div>
+              <h5 class="extrabold1 name">Keerthivasan D</h5>
+              <h6>Webpage Designer</h6>
+              <h6>+91 9025537837</h6>
+            </div>
+            <div>
+              <h5 class="extrabold1 name">Swathi Y</h5>
+              <h6>+91 9941294332</h6>
+            </div>
+          </div> 
+        </div>
+      </div>
+    </div>
+    <!-- <div>
+      <div><h5 class="myHeader extraBold1 gradient0">Convenor</h5>
+      <div class="triangle">
+        <div>
+          <h5 class="extrabold1">Dr.K.VIJAYAKUMAR</h5>
+          <h6>HOD-PROFESSOR</h6>
+        </div>
+       
+      </div>
+    </div>
+      <div><h5 class="myHeader extraBold1 gradient0">Staff Co-ordinators</h5>
+        <div class="triangle">
+          <div>
+            <h5 class="extrabold1">Dr.R.Deepa</h5>
+            <h6>+91 9884703877</h6>
+          </div>
+          <div>
+            <h5 class="extrabold1">Ms.J.Vinisha</h5>
+            <h6>+91 9443687290</h6>
+          </div>
+        </div></div>
+    </div>
+    <br />
+    <br />
+    <h5 class="myHeader extrabold1 gradient0">Student Co-ordinators</h5>
+    <div class="triangle">
+      <div>
+        <h5 class="extrabold1">Joiyson Jawahar T</h5>
+     
+        <h6>+91 9514332122</h6>
+      </div>
+      <div>
+        <h5 class="extrabold1">Swathi Y</h5>
+      
+        <h6>+91 9941294332</h6>
+      </div>
+    </div>
+    </div> -->
+
+    <br /><br />
+    <footer>
+      <div class="footerContainet">
+        <div><img src="./img/stlogo.png" alt="" class="stlogo"/></div>
+        <div class="textBox">
+          <div><p class="wemake">We Make You Shine</p></div>
+          <div><p class="collegename"  >S<span style="text-transform: lowercase;">t</span>.Joseph's institute of technology</p></div>
+          <div><p class="autonomous" >(an autonomous institution)</p></div>
+          <div><p class="institute">st.joseph's group of institution</p></div>
+          <div><p class="trust">jeppiaar educational trust</p></div>
+          <div><p class="address">OMR ,Chennai-119.</p></div>
+        </div>
+        <div class="logo2container"><img src="./img/st-joseph1.png" alt="" class="st2logo"/></div>
+      </div>
+    </footer>
+    <script type="text/javascript">
+      function countDown() {
+        const now = new Date();
+        const targetTime = new Date("September, 28, 2024, 00:00:00");
+
+        const diff = targetTime - now;
+        const d = Math.floor(diff / (24 * 60 * 60 * 1000));
+        const h = Math.floor(diff / (60 * 60 * 1000)) % 24;
+        const m = Math.floor(diff / (60 * 1000)) % 60;
+        const s = Math.floor(diff / 1000) % 60;
+
+        document.getElementById("days").innerHTML = d;
+        document.getElementById("hours").innerHTML = ("0" + h ).slice(-2);
+        document.getElementById("minutes").innerHTML = ("0" + m).slice(-2);
+        document.getElementById("seconds").innerHTML = ("0" + s).slice(-2);
+        document.getElementById("daystogo").innerHTML = d;
+      }
+
+      setInterval(countDown, 1000);
+    </script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.slim.min.js"
+      integrity="sha256-w8CvhFs7iHNVUtnSP0YKEg00p9Ih13rlL9zGqvLdePA="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="./js/auto.js"></script>
+  </body>
+</html>
